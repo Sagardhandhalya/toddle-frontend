@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/toddlecat/static/css/main.fd1f1ab7.chunk.css",
+    "main.js": "/toddlecat/static/js/main.dd3c7e3d.chunk.js",
+    "main.js.map": "/toddlecat/static/js/main.dd3c7e3d.chunk.js.map",
+    "runtime-main.js": "/toddlecat/static/js/runtime-main.cbcfe3ee.js",
+    "runtime-main.js.map": "/toddlecat/static/js/runtime-main.cbcfe3ee.js.map",
+    "static/js/2.c88e9e56.chunk.js": "/toddlecat/static/js/2.c88e9e56.chunk.js",
+    "static/js/2.c88e9e56.chunk.js.map": "/toddlecat/static/js/2.c88e9e56.chunk.js.map",
+    "index.html": "/toddlecat/index.html",
+    "precache-manifest.6013b5ef528e0689f63d651a43aded38.js": "/toddlecat/precache-manifest.6013b5ef528e0689f63d651a43aded38.js",
+    "service-worker.js": "/toddlecat/service-worker.js",
+    "static/css/main.fd1f1ab7.chunk.css.map": "/toddlecat/static/css/main.fd1f1ab7.chunk.css.map",
+    "static/js/2.c88e9e56.chunk.js.LICENSE.txt": "/toddlecat/static/js/2.c88e9e56.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cbcfe3ee.js",
+    "static/js/2.c88e9e56.chunk.js",
+    "static/css/main.fd1f1ab7.chunk.css",
+    "static/js/main.dd3c7e3d.chunk.js"
+  ]
+}
