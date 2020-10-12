@@ -1,38 +1,171 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
 .App {
-  text-align: center;
+  width:90%;
+  padding: 0px;
+  margin: 0 auto;
+  margin-top: 50px;
+  min-width: 360px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+  color:gray;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.head-thead{
   display: flex;
-  flex-direction: column;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 60px;
+  overflow: hidden;
+
+}
+
+.head-action{
+  width: 150px;
+
+}
+
+.head-standard{
+  width: 70%;
+  padding-left: 100px;
+ 
+  }
+
+
+
+.head-descreption{
+  font-size: 12px;
+  color: lightgray;
+}
+
+
+.row{
+  display: flex;
+  height: 45px;
+  overflow: hidden;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+
+.action{
+  min-width: 120px;
+}
+
+.action img{
+  width: 20px;
+  height: 20px;
+  margin: 3px;
+  cursor: pointer;
+  color: #655C5C;
+}
+
+
+
+
+.standard0{
+ width: 70%;
+  display: flex;
+ align-items: center;
+ margin-left: 5%;
+}
+
+.editable0{
+  color: rgb(34, 198, 243);
+  font-size: 15px;
+  font-weight: bold;
+  outline: 0;
+  align-items: center;
+  overflow: hidden;
+}
+
+.standard1{
+
+  display: flex;
+ align-items: center;
+ margin-left: 30px;
+}
+.editable1{
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  outline: 0;
+  align-items: center;
+  overflow: hidden;
+}
+.standard2{
+
+  display: flex;
+ align-items: center;
+ margin-left: 60px;
+}
+.editable2{
+  color: black;
+  font-size: 13px;
+  outline: 0;
+  align-items: center;
+  overflow: hidden;
+}
+
+hr{
+  border: 1px rgb(171, 163, 163) solid;
+}
+
+.btn{
+  width: 100%;
   color: white;
+  border: none;
+  background-color: rgb(99, 99, 204);
+  cursor: pointer;
+ position: relative;
+ padding: 10px;
+  border-radius:5px;
+  outline: none;
+  margin-top: 20px;
+  box-shadow: gray 3px 3px 5px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.btn img{
+width: 20px;
+margin-right: 10px;
+}
+.btn span{
+font-size: 20px;
+}
+input{
+  border: 0;
+  width: 1000px;
+  height: 20px;
+  padding: 2px;
+  margin-left: 25px;
+  
+}
+input::placeholder{
+  font-size: 12px;
+  font-weight: 200;
+  color: lightgray;
 }
 
-.App-link {
-  color: #61dafb;
+.action button{
+  border: 0;
+  outline: 0;
+  background-color: white;
+  display: inline-block;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.grayblock{
+  background-color: rgb(245, 240, 240);
+  width: 30px;
+  height: 45px ;
+ }
